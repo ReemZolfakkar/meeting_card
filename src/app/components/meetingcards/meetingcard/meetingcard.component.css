@@ -1,0 +1,45 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.meeting-card{
+    border-radius: 5px;
+    border:1px solid black;
+    border-left: 2px solid #33bdff;
+    padding: 20px; 
+    width: fit-content;
+    min-width: 500px;
+    height: auto;  
+    display: flex;
+    flex-direction: row;
+}
+.meeting-card-details{
+    width: 70%;
+    text-align: start;
+}
+.meeting-card-join{
+     width: 30%;
+     text-align: end;
+}
+.meeting-card-details-title
+{
+    
+    font-weight: bold;
+}
+.meeting-card-details-info{
+    margin-top: 10px;
+}
+.meeting-card-join-statue{
+    color: #ffc55b;
+    background-color: #fff3bf;
+    width: fit-content;
+    border-radius: 10px;
+    padding:0 5px;
+    
+}
+.meeting-card-join-btn{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    width: max-content;
+    border: 1px solid lightgray;
+}

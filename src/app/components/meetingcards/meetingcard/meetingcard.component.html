@@ -1,0 +1,37 @@
+<div class="meeting-card">
+    <div class="meeting-card-details">
+        <div class="meeting-card-details-title">
+            <span >
+                Meeting Title
+            </span>
+        </div>
+        <div class="meeting-card-details-info">
+            <img src="assets/imgs/3.png">
+            {{Date}}
+        </div>
+        <div class="meeting-card-details-info">
+            <img src="assets/imgs/1.png">
+            Project
+        </div>
+        <div class="meeting-card-details-info">
+            <img src="assets/imgs/2.png">
+            Location
+        </div>
+    </div>
+    <div class="meeting-card-join">
+        <span class="meeting-card-join-statue">
+            {{Statue}} 
+        </span>
+        <div style="margin-top: 65px;display: inline-flex;">
+            <button class="meeting-card-join-btn">
+                <span>
+                <img src="assets/imgs/4.png">
+                <span style="position: relative;top:-5px">Join Call</span>
+                </span>
+            </button>
+            <div style="display: inline-block;" *ngFor="let user of users">
+           <app-users></app-users>
+            </div>
+        </div>
+    </div>
+</div>
